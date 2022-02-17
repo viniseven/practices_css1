@@ -1,0 +1,64 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: #090b1a;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+}
+
+
+.card {
+    color: white;
+    width: 1110px;
+    height: 450px;
+    background-color:#1b1938;
+    display: flex;
+    margin: auto;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.info{
+    width: 50%;
+    margin: 30px;
+}
+
+h2{
+    color: #04d361;
+}
+
+.description{
+    margin-top: 30px;
+    font-weight: 450;
+    text-align: justify;
+}
+
+.statistic {
+    display: inline-flex;
+    margin-top: 80px;
+    line-height: 1.4;
+    
+}
+
+.statistic div:not(:last-child){
+    margin-right: 30px;
+}
+
+.image{
+   display: flex;
+}
+
+#imagem{
+    border-radius: 0 5px 5px 0;
+    background-color: #04d361;
+}
+
+
+
